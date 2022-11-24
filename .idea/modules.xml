@@ -2,7 +2,28 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AAPractice/AAPractice.iml" filepath="$PROJECT_DIR$/AAPractice/AAPractice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Classes &amp; Objects/Classes &amp; Objects.iml" filepath="$PROJECT_DIR$/Classes &amp; Objects/Classes &amp; Objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Collection Framework/Collection Framework.iml" filepath="$PROJECT_DIR$/Collection Framework/Collection Framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Complexity/Complexity.iml" filepath="$PROJECT_DIR$/Complexity/Complexity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Final Keyword/Final Keyword.iml" filepath="$PROJECT_DIR$/Final Keyword/Final Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Hashing/Hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Imp Concept/Imp Concept.iml" filepath="$PROJECT_DIR$/Imp Concept/Imp Concept.iml" />
       <module fileurl="file://$PROJECT_DIR$/J.iml" filepath="$PROJECT_DIR$/J.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java Basics/Java Basics.iml" filepath="$PROJECT_DIR$/Java Basics/Java Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambda Expression/Lambda Expression.iml" filepath="$PROJECT_DIR$/Lambda Expression/Lambda Expression.iml" />
+      <module fileurl="file://$PROJECT_DIR$/New Keyword/New Keyword.iml" filepath="$PROJECT_DIR$/New Keyword/New Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOPS/OOPS.iml" filepath="$PROJECT_DIR$/OOPS/OOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Project/Project.iml" filepath="$PROJECT_DIR$/Project/Project.iml" />
+      <module fileurl="file://$PROJECT_DIR$/QP/QP.iml" filepath="$PROJECT_DIR$/QP/QP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recurssion/Recurssion.iml" filepath="$PROJECT_DIR$/Recurssion/Recurssion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Searching Alogorithm/Searching Alogorithm.iml" filepath="$PROJECT_DIR$/Searching Alogorithm/Searching Alogorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Set/Set.iml" filepath="$PROJECT_DIR$/Set/Set.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sorting Algorithm/Sorting Algorithm.iml" filepath="$PROJECT_DIR$/Sorting Algorithm/Sorting Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Static Keyword/Static Keyword.iml" filepath="$PROJECT_DIR$/Static Keyword/Static Keyword.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String/String.iml" filepath="$PROJECT_DIR$/String/String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Wrapper Classes/Wrapper Classes.iml" filepath="$PROJECT_DIR$/Wrapper Classes/Wrapper Classes.iml" />
     </modules>
   </component>
 </project>

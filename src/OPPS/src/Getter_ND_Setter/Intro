@@ -1,5 +1,0 @@
-
-
-when we working in real project, the data member of a class have to declare as private and these private data member
-another class can't access directly because private member can access by it's own class (where it's declare)
-so that's why we use getter (for get value) and setter (for set value).
