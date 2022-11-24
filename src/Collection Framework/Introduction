@@ -1,0 +1,106 @@
+
+---------------------------------------Collection Framework ---------------------------------------------------
+
+
+
+Collection(Interface) -:
+
+                    - Any group of individual objects which are represented as a single unit is known as the
+                     collection of the objects.
+                    - In Java, a separate framework named the “Collection Framework” has been defined
+                      in JDK 1.2 which holds all the collection classes and interface in it.
+
+
+The Collection interface (java.util.Collection) and Map interface (java.util.Map) are the two main “root”
+interfaces of Java collection classes.
+
+
+What is a Framework?
+
+A framework is a set of classes and interfaces which provide a ready-made architecture.
+
+Consistent API:
+                The API has a basic set of interfaces like Collection, Set, List_Interface, or Map, all the classes
+                (ArrayList, LinkedList, Vector, etc) that implement these interfaces have some common set
+                of methods.
+
+
+    ArrayList(Class)----Implements------> List_Interface (Interface) -----Extends-------> Collection(Interface)
+
+
+ ArrayList,set,TreeSet are classes implements the List_Interface interface and List_Interface interface Extends Collection Interface.
+
+
+List_Interface:-
+
+     - In Java, the List_Interface interface is an ordered collection that allows us to store and access elements
+       sequentially.
+
+     - List_Interface can store Duplicate values.
+
+     - It extends the Collection interface.
+
+     - Classes that Implement List_Interface
+
+       Since List_Interface is an interface, we cannot create objects from it.
+
+       In order to use functionalities of the List_Interface interface, we can use these classes:
+
+            ArrayList
+            LinkedList
+            Vector
+            Stack
+
+
+
+ ArrayList:-
+            ArrayList is a part of collection framework and is present in java.util package.
+            It provides us with dynamic arrays in Java. Though, it may be slower than standard
+            arrays but can be helpful in programs where lots of manipulation in the array is needed.
+
+          - In Java, we need to declare the size of an array before we can use it.
+            Once the size of an array is declared, it's hard to change it.
+
+          - To handle this issue, we can use the ArrayList class. It allows us to create resizable arrays.
+
+          - Unlike arrays, arraylists can automatically adjust their capacity when we add or remove
+            elements from them. Hence, arraylists are also known as dynamic arrays.
+
+          - ArrayList can store Duplicate Elements.
+
+        Syntax : -
+                   ArrayList<Type> arrayList= new ArrayList<>();
+
+
+
+ Set :-
+
+     - The set interface is present in java.util package and extends the Collection interface is an unordered
+       collection of objects in which duplicate values cannot be stored.
+
+     - set cannot store duplicate elements.
+
+     - Since Set is an interface, we cannot create objects from it.
+
+     - It makes no guarantees as to the iteration order of the set;
+       in particular, it does not guarantee that the order will remain constant over time.
+
+       In order to use functionalities of the Set interface, we can use these classes:
+
+          HashSet
+          LinkedHashSet
+          EnumSet
+          TreeSet
+
+
+
+
+Java List_Interface vs. Set :-
+
+            Both the List_Interface interface and the Set interface inherits the Collection interface.
+            However, there exists some difference between them.
+
+           - Lists can include duplicate elements. However, sets cannot have duplicate elements.
+
+           - Elements in lists are stored in some order. However, elements in sets are stored in
+             groups like sets in mathematics.

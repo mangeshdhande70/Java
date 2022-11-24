@@ -1,0 +1,112 @@
+
+
+Polymorphism- Polymorphism is the ability of an object to take on different forms. In Java, polymorphism
+              refers to the ability of a class to provide different implementations of a method,
+              depending on the type of object that is passed to the method.
+
+              (Multiple Behaviour)
+
+             ## Polymorphism in Java is the task that performs a single action in different ways.
+
+              Polymorphism is a feature of the object-oriented programming language, Java, which implies that you can
+              perform a single task in different ways.
+
+
+
+   ## Types of Polymorphism
+
+    You can perform Polymorphism in Java via two different methods:
+
+   1. Method Overloading
+   2. Method Overriding
+
+
+   1. Method Overloading -  two or more methods with same name but different signature.
+
+     Method overloading is the process that can create multiple methods of the same name in the same class but
+     this method have different in parameter,and all the methods work in different ways.
+     Method overloading occurs when there is more than one method of the same name in the class.
+
+     Note : Method Overloading resolve at Compile Time and Method Overridden is resolve at Runtime
+
+     class Shapes {
+       public void area() {
+         System.out.println("Find area ");
+       }
+     public void area(int r) {
+         System.out.println("Circle area = "+3.14*r*r);
+       }
+
+     public void area(double b, double h) {
+         System.out.println("Triangle area="+0.5*b*h);
+       }
+     public void area(int l, int b) {
+         System.out.println("Rectangle area="+l*b);
+       }
+     }
+
+     class Abstraction.Main {
+       public static void main(String[] args) {
+         Shapes myShape = new Shapes();
+
+         myShape.area();
+         myShape.area(5);
+         myShape.area(6.0,1.2);
+         myShape.area(6,2);
+
+       }
+     }
+     Output:
+
+     Find area
+     Circle area = 78.5
+     Triangle area=3.60
+     Rectangle area=12
+
+
+
+    2. Method Overriding
+
+        Method overriding is the process when the subclass or a Abstraction.child class has the same method as declared
+        in the parent class.
+
+        same name and same parameter.
+
+        Note : Method Overridden is resolve at Runtime and Method Overloading resolve at Compile Time a.
+
+        class Vehicle{
+
+          void run(){
+          System.out.println("Vehicle is moving");
+          }
+        }
+
+        class Car2 extends Vehicle{
+
+          void run(){
+          System.out.println("car is running safely");
+          }
+
+          public static void main(String args[]){
+          Car2 obj = new Car2();
+          obj.run();
+          }
+        }
+
+
+        Output:
+
+        Car is running safely
+
+
+
+   ##  why overriding is a runtime polymorphism and overloading is a compile time polymorphisms ?
+
+
+            Just think in terms of when a method is picked for execution.
+
+            If there are overridden methods, which method is to be executed depends on the type of object ;
+             that is decided at RUNTIME by the JVM. So this is "runtime polymorphism".
+
+            If a method is overloaded, the compiler decides which method is to be executed by verifying the
+             argument list and return type at compile time. So this is "compile time polymorphism".

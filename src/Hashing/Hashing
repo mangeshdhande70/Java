@@ -1,0 +1,123 @@
+
+                                                Hashing
+ -------------------------------------------------------------------------------------------------------------
+
+      Topics :
+              1. hashTable
+              2. Hash Function
+              3. HashCode / Hash Value / hash sum / hashes
+              4. what is hashing?
+              5. Collision.
+
+
+
+      1. HashTable :
+
+         *  The Hashtable class implements a hash table, which maps keys to values and it's
+            implement the Map interface .
+
+         *  hash table is a data structure where data is stored in an array format, also
+            it is use LinkedList.
+
+         * All method are Thread-Safe.
+
+         * there is a 'Synchronized' keyword on each public method such as (Put,get,contains,remove etc..)
+           means if someone putting data or performing other operation at the same time
+           another developer cannot get data or not able to do any operation on it until 1st task completed.
+
+           (the function call blocks other function calls due to Synchronization).
+
+
+
+
+      2. Hash Function :
+
+         * A hash Function is any that can be map dataset of arbitrary size to dataset of fixed size,
+           which falls into the hash table.
+
+         * hash function that maps keys to some values. But these hashing function may lead to collision that
+           is two or more keys are mapped to same value.
+
+         * in simple word , hash function convert key value into index value(map key value with index).
+
+         hash Function must be:
+
+             1. Easy to Compute.
+             2. Even Distribution.
+             3. minimize Collision.
+
+
+
+      3. HashCode / Hash Value / hash sum / hashes
+
+          * It is an Integer value  that is associated with an each object.
+
+          * also , it is an Integer value that is computed using properties of that object.
+
+          * large length value to fixed length value.
+
+          * hashcode() function in java compute hash Value of an object.
+
+          **  Java doesn't generate hashcode() , i.e nothing automatic happen here , however object
+              generate hash codes based on memory addresses of the instance of an object.
+
+              Most classes (especially if you are going to use it in any of the Collection API) should
+              implement their own HashCode (and by contract their own equals method).
+
+
+
+
+      4. Hashing
+
+          * hashing is process of transforming of object(large length or String of character, Integer..etc) to a shortest
+            fixed-length value that representing original object (String) and the using converted values data
+            will be stored in data structure(hashtable).
+            Shorter value helps in indexing and Faster searches.
+
+          * In hashing, large key are converted into small once by using hash function and then the values are
+            stored in data structure(hashtable).
+
+          * every object has a public int hashcode() that will return hash values for given object.
+            Using these hash values, these objects are stored in Java collections such as HashMap,
+            HashSet and HashTable.
+
+          * The Integer class in Java contains two methods - hashCode() and hashCode(int value)
+            which compute the hash values of Integer objects and primitive int values respectively.
+
+          * The hashCode method should be consistent in its implementation of the equals() function.
+
+
+
+
+ 5. Collision :
+
+      * A situation when the resultant hashes(hashcode) for two or more data elements in the dataset
+       maps to the same location in the hashtable, is called hash Collision
+
+       Hash Collision Resolution :
+
+         1. Open Hashing (Chaining)
+         2. Closed Hashing (Open Addressing)
+
+         1. Open hashing :
+
+             * whether collision are stored outside the table.
+
+             * the simplest form of open hashing defines each slot in the table to be head of a Linked lIST
+
+             * All records that hash to particular slot are placed on that slots using Linked List.
+
+
+         2. Closed Hashing :
+
+             * types
+
+             1. Linear Probing
+             2. Quadratic Probing.
+             3. Double Hashing.
+
+
+
+
+         2.
+

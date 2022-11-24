@@ -1,0 +1,38 @@
+
+
+Class  -  A class is a user defined blueprint or prototype from which objects are created. It represents the set of
+          properties or methods that are common to all objects of one type.
+
+          •	class is a group of properties and functions.
+
+          Class class_name{            // every class in java extends Object class
+                  //data member
+                 //member functions
+          }
+
+
+
+
+Objects -  An entity that has state and behavior is known as an object.
+
+           •	Object is an instance of a class.
+           •	Object occupies space in memory.
+           •	It is physical stuff.
+           •	Object store in heap memory.
+           •	every Object created their own memory.
+
+
+
+
+
+           How to create objects:
+
+                       Student stud1 = new Student();
+
+           •	Student – it is a user_defined class.
+           •	stud1  -  Reference var.
+           •	new – we use the new keyword in java to instantiate the class via allocating the memory
+                      for a new object, after which we return a reference to that memory.
+
+-                 **   new is use to getting new memory in the heap memory
+
