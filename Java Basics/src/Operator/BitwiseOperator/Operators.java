@@ -1,9 +1,9 @@
-package Operator;
+package Operator.BitwiseOperator;
 
 public class Operators {
     public static void main(String[] args) {
 
-        /*
+        /**
     _________________________________________________________________________________________________________________
     1) Arithmetic Operator.Operators
     2) Unary Operator.Operators
@@ -21,6 +21,8 @@ public class Operators {
        5  ***** LOGICAL Operator *****
 
            Conditional operators are:
+
+             Note:  T || F ( if 1st one is true then it will not check for 2nd)
 
             &&, Logical AND: returns true when both conditions are true.
             ||, Logical OR: returns true if at least one condition is true.
@@ -52,6 +54,9 @@ public class Operators {
     _________________________________________________________________________________________________________________
 
        7  *****  BITWISE Operator  *****
+
+           check both if it is true or not
+
 
           &, Bitwise AND operator: returns bit by bit AND of input values.
           |, Bitwise OR operator: returns bit by bit OR of input values.
@@ -108,8 +113,6 @@ public class Operators {
                                                     |  shift the two digit toward left and add two zero to right
                      5 = 0 1 0 1 ==  0 0 0 1        |-  side and th left side two digit will deleted
                                                     |
-
-
 
 
           3. Unsigned Right Shift Operator in Java

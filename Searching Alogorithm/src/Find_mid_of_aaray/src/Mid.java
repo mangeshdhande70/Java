@@ -1,8 +1,9 @@
-package Find_mid_of_aaray.src
+package Find_mid_of_aaray.src;
 
-public class mid {
+public class Mid {
 
     public static void main(String[] args) {
+
         int [] a= {1,8,9,30,80,90};
 
         int low = 0 , high = a.length-1;
