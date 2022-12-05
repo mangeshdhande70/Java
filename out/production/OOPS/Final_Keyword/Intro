@@ -1,0 +1,9 @@
+
+
+
+final keyword –
+•	Final is a non-access modifier applicable to a variable, a method, or a class.
+•	If variable declare as final then value of that variable cannot be modify.
+•	If method is declare as final then this method cannot be overridden
+•	If class declare as final then this class cannot be inherited.
+•	Always initialize while declaring.

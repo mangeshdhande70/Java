@@ -1,0 +1,84 @@
+Define - Java is a general-purpose, class-based, object-oriented programming language designed for
+         having lesser implementation dependencies. It is a computing platform for application development.
+
+         Java is fast, secure, and reliable, therefore. It is widely used for developing Java applications
+         in laptops, data centers, game consoles, scientific supercomputers, cell phones, etc.
+
+         " james Gosling is known as the father of Java. "
+
+
+  Note : Java used both compiler and Interpreter.
+         compiler :- compile convert the source code in one go into Byte code.
+         Interpreter :- Interpreter convert the byte code into Machine code(binary code) line by line
+
+
+         JVM :- java virtual machine, it is platform dependent but java is platform independent,
+         JDK :- java development kit.
+
+
+  Java Variables
+
+         A variable is a container which holds the value while the Java program is executed.
+         A variable is assigned with a data type.
+
+         Variable is a name of memory location. There are three types of variables in java:
+          local, instance and static.
+
+          A variable is a name given to a memory location.
+          It is the basic unit of storage in a program.
+
+
+  Data Types :
+
+    What type of value will be stored in variable is define by data type.
+
+    ex - int, float, double, char...etc
+
+
+    Java has two categories in which data types are segregated
+
+    1) Primitive Data Type: such as boolean, char, int, short, byte, long, float, and double
+    2) Non-Primitive Data Type or Object Data type: such as String, Array, etc.
+
+
+    Size of byte: 1 bytes.
+    Size of short: 2 bytes.
+    Size of int: 4 bytes.
+    Size of long: 8 bytes.
+    Size of char: 2 bytes.
+    Size of float: 4 bytes.
+    Size of double: 8 bytes.
+
+
+
+
+    Variable Types
+
+
+    - Local Variable – whenever you create a variable inside a method is known as Local variable.
+                      ## we can't able to call these variable by object
+
+      Function()
+       {
+         int a;
+         String name;
+         float num;
+
+       }
+
+
+    - Instance variable – variable inside the class but outside the method is called instance variable.
+                        ##  we can able to call these variable by object
+
+                 Class student {
+
+    		Int rollNo;
+     		String name;        // these are instance var
+    		float marks;
+
+         }
+
+
+    - Reference var – Define the object is called reference var.
+
+             Student stud1 = new Student();  // stud1 is reference var
