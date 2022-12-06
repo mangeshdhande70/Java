@@ -1,4 +1,4 @@
-package String;//package Basics;
+package String;//package ThreadClass;
 //
 //import java.util.Arrays;
 //

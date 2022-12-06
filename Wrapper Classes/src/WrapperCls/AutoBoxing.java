@@ -44,9 +44,11 @@ public class AutoBoxing {
         Integer i = 10;  // --- AutoBoxing
 
 
+        Integer in = new Integer(6);
+
+        int k = in;
+
 
 
     }
-
-
 }

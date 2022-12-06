@@ -19,7 +19,7 @@ public class TestApp {
 
 
         StudentssM studentssM1 = new StudentssM("Ketan Dhande","kd@12gmai.com",3,courses);
-        StudentssM studentssM2 = new StudentssM("Shital","shital12@gmail.com",89,courses);
+        StudentssM studentssM2 = new StudentssM("BankingSystem","shital12@gmail.com",89,courses);
         StudentssM studentssM3 = new StudentssM("Shakal","shakal2@gmail.com",100,courses);
 
 
