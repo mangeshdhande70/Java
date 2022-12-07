@@ -1,0 +1,35 @@
+
+
+
+   Synchronization ::
+
+      Synchronization is a modifier that is used for the method and blocks only.With the help of a
+      synchronized modifier, we can restrict a shared resource to be accessed only by one thread.
+      When two or more threads need access to shared resources, there is some loss of data i.e. data
+      inconsistency.The process by which we can achieve data consistency between multiple threads
+      is called Synchronization.
+
+There are two types of locking in java.
+
+        1. Object level locking
+        2. Class level locking
+
+
+
+
+Object level locking:
+
+        Object level locking means you want to synchronize non static method or block so that it can be
+        accessed by only one thread at a time for that instance. It is used if you want to protect non
+        static data.
+
+
+
+Class level locking:
+
+    Class level locking means you want to synchronize static method or block so that it can be accessed
+    by only one thread for whole class. If you have 10 instances of class, only one thread will be able
+    to access only one method or block of any one instance at a time. It is used if you want to protect
+    static data.
+
+
