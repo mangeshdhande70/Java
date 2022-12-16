@@ -9,6 +9,11 @@ package Synchronization.ClassLevelSynchronization;
    whereas class level lock is achieved to restrict any object to operate.
 
 
+ *  In class Level Lock only one thread and only one instance of class can access the method or
+    block at a time. but in  Object level thread of different instances of class can access the method or
+    block at a time.
+
+
  */
 
 class Parent{
