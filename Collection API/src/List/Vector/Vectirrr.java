@@ -1,4 +1,4 @@
-package List.Vectorr;
+package List.Vector;
 
 import java.util.Enumeration;
 import java.util.Vector;

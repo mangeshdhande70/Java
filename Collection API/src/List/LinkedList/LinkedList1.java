@@ -24,7 +24,7 @@
  */
 
 
-package List.LinkedList1;
+package List.LinkedList;
 
 import java.util.LinkedList;
 

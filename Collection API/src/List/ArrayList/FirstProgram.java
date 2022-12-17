@@ -29,7 +29,7 @@
 
  */
 
-package List.ArrayList1;
+package List.ArrayList;
 
 import java.util.ArrayList;
 
