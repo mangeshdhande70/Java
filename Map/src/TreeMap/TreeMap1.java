@@ -2,7 +2,9 @@
 
 
  * TreeMap stores key-value pairs. The main difference is that TreeMap sorts the key in ascending order.
+
  * TreeMap is sorted on the basis of key and key always have to be unique and homogeneous.
+
  * if you use Heterogeneous in key then it gives a ClassCastException while you directly printing.
 
 

@@ -2,13 +2,19 @@
 
 
    * Internally use Doubly Liked List Data Structure.
+
    * Duplicate Elements are Allowed.
+
    * Homogeneous as well Heterogeneous Data can be Stored.
+
    * Data Stored as object.
+
    * Data Not stored in contiguous memory location  .. it is stored disperce memory location.
+
    * Data manipulation insertion, Deletion are efficient as compare to ArrayList bcz of while inserting
      or deleting of data shifting of index is not there only simple linking is there so data manipulation
      in LinkedList is in Efficient manner.
+
    * It is implementing List and Deque Interfaces.
 
 

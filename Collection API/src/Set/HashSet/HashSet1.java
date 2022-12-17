@@ -1,9 +1,13 @@
 /**
 
  * It follows Hashing Algorithm.
+
  * Hashset internally uses Hashmap for its implementation.
+
  * It uses Hash function associated with Hashtable and has 75% load-factor.
+
  * Duplicates are not Allowed and, it is not allowed index based Accessing.
+
  * It is not follows the order of data insertion
 
 

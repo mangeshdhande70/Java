@@ -2,13 +2,19 @@
 
 
  * Internally use Dynamic Arrays Data Structure.
+
  * Duplicate Elements are Allowed.
+
  * Homogeneous as well Heterogeneous Data can be Stored.
+
  * Data Stored as object.
+
  * Data stored in contiguous memory location.
+
  * Data manipulation insertion, Deletion are not efficient as compare to LinkedList bcz of while inserting
    or deleting of data shifting of index is there so data manipulation in middle (except at rear end)
    is not done Efficiently.
+
  * It is implementing only List Interfaces.
 
  * we are able to add Object in ArrayList at any given index..

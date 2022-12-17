@@ -1,9 +1,13 @@
 /**
 
-   * Only Homogeneous data can be Stored.
-   * always give higher priority to small no & data not be sorted.
-   * it follows in-order LVR Principle. (left value right).
-   * Internally its follows Min-Heap DS.
+
+  * Only Homogeneous data can be Stored.
+
+  * always give higher priority to small no & data not be sorted.
+
+  * it follows in-order LVR Principle. (left value right).
+
+  * Internally its follows Min-Heap DS.
 
 
   When we can use?

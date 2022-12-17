@@ -1,13 +1,18 @@
 /**
 
    * Sorted interface extends Set Interface and Sorted Interface implements by TreeSet
+
    * Only Homogeneous data can be stored.
+
    * TreeSet uses tree data structure for storage. ( BinarySearchTree )
+
    * Always Data is Stored in Sorted Order.
+
    * If Tree is Balance Tree then searching operation is taking less time Complexity otherwise
      it takes O(n).
+
    * Duplicates Not Allowed if you are trying to add duplicates the duplicate data stored only one time.
-   *
+
 
 
    When we can use TreeSet.

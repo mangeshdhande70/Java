@@ -3,20 +3,25 @@
 
  --- The Map interface is not a subtype of the Collection interface
 
-   * The HashMap is an implementation of hash table data structure
+   * The HashMap is an implementation of hash table data structure.
+
    * It is a part of Map Api / MapHierarchy not Collection.
+
    * It stored the data in Key value pair and Key must be Unique.
+
    * HashMap contains an array of the nodes, and the node is represented as a class.
      It uses an array and LinkedList data structure internally for storing Key and Value.
 
    * In Map Interface there is no iterator Concept.
+
    * HashMap not preserve the order of Insertion.
 
 
  --------> Difference Between HashMap and Hashtable <-----------------------
 
  * all methods inside Hashtable is Synchronized means at a time only one thread will run this
-   therefore, Hashtable is thread-safe
+   therefore, Hashtable is thread-safe.
+
  * all methods inside HashMap is non-Synchronized means at a time one or more thread will run this
    methods therefore, it is not thread-safe.
 
