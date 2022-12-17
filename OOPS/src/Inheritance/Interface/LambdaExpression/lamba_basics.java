@@ -1,6 +1,6 @@
 package Inheritance.Interface.LambdaExpression;
 
-
+@FunctionalInterface
 interface Bank{
     void accountbalance(int n);
 }

@@ -1,4 +1,4 @@
-package Inheritance.Interface;
+package Inheritance.Interface.AIntro;
 
 
 interface math{

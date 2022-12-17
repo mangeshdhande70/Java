@@ -1,6 +1,9 @@
 
 
 
+* Inside a Interface every method is by default public and abstract and whichever class going to implement
+  provide implementation of those methods.
+
 An interface in Java is a blueprint of a class. It has static constants and abstract methods.
 
 The interface in Java is a mechanism to achieve abstraction. There can be only abstract methods in
@@ -15,6 +18,7 @@ There are mainly three reasons to use interface. They are given below.
 - It is used to achieve abstraction.
 - By interface, we can support the functionality of multiple inheritance.
 - It can be used to achieve loose coupling.
+- Interface inside a Interface ie allowed.
 
 
 
@@ -31,3 +35,10 @@ The Java compiler adds public and abstract keywords before the interface method.
      int variable = 5;    == public static final int = 5;
 
      }
+     
+     
+     
+     Note : 
+     
+     if you implementing the interface and provide implementation of interfaces methods then that method 
+     always be declared as public.

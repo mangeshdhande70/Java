@@ -13,6 +13,11 @@ class Launch1{
         System.out.println("\nInside static block of Launch1 after Constructor");
     }
 
+    public static void staticMethod()
+    {
+        System.out.println("Inside static method in Launch1");
+    }
+
 }
 
 class Launch2 extends Launch1{
@@ -60,6 +65,10 @@ public class Multilevel {
 
     public static void main(String[] args) {
         Launch4 launch4 = new Launch4();
+
+//        Launch2 launch2 = new Launch2();
+
+        Launch2.staticMethod();
 
     }
 
