@@ -1,3 +1,5 @@
+package StaticBlockAndStaticFunction;
+
 public class Ineuron {
 
     public static void main(String[] args) {

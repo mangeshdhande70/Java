@@ -1,3 +1,5 @@
+package HowStaticKeyWorldExecutionIsDon;
+
 class Launch{
 
     static int x; //x and y both are static variable & it is initialized first during class loading

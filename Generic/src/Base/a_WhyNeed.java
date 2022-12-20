@@ -1,4 +1,4 @@
-/**
+package Base; /**
 
 
  Definition: The main objective of Generics is to provide Type-Safety and to resolve Type-Casting problems.
@@ -46,12 +46,9 @@
  */
 
 
-
-package Generics;
-
 import java.util.ArrayList;
 
-public class WhyNeed {
+public class a_WhyNeed {
 
 
 

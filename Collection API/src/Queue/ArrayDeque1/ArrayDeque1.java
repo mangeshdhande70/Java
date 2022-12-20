@@ -33,7 +33,23 @@ public class ArrayDeque1 {
         arrayDeque.add(333);
         arrayDeque.add(333);
 
+
         System.out.println(arrayDeque);
+
+        arrayDeque.remove();
+
+        System.out.println(arrayDeque);
+
+        arrayDeque.removeLast();
+
+        System.out.println(arrayDeque);
+
+        arrayDeque.addFirst(34);
+        arrayDeque.addLast(67);
+        arrayDeque.add(67);
+
+        System.out.println(arrayDeque);
+
 
 
 

@@ -16,6 +16,8 @@
 
    * HashMap not preserve the order of Insertion.
 
+   *  All Method Present in HashMap is Non-Synchronized.
+
 
  --------> Difference Between HashMap and Hashtable <-----------------------
 
@@ -48,6 +50,8 @@ public class LaunchFirst {
 
     public static void main(String[] args) {
 
+
+        Map map = new HashMap();
 
         HashMap hashMap = new HashMap();
 
@@ -96,14 +100,24 @@ public class LaunchFirst {
 
         System.out.println("***** Fetching Keys and Values Only *****");
 
-        Collection collection2 = hashMap.entrySet();
+        Set set = hashMap.entrySet();
 
-        Iterator iterator2 = collection2.iterator();
+        Iterator iterator2 = set.iterator();
 
         while (iterator2.hasNext()) {
             Map.Entry entry = (Map.Entry) iterator2.next();
 
             System.out.println("Key : " + entry.getKey() + "  " + "Values : " + entry.getValue());
+
+
+            System.out.println("***************************************");
+
+            Properties properties = new Properties();
+            properties.put(34,45);
+            System.out.println(properties);
+
+
+
         }
 
     }

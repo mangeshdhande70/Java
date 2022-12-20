@@ -1,3 +1,13 @@
+/**
+
+
+  Garbage Collector internally call finalized method to clean the object from heap.
+
+
+ */
+
+
+
 package GarbageCollection;
 
 

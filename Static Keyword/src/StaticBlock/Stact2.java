@@ -1,3 +1,5 @@
+package StaticBlock;
+
 public class Stact2 {
     static int a=0;
     int y ;
@@ -87,8 +89,8 @@ public class Stact2 {
 
 
 
-//        System.loadLibrary("Stact2");
-//        System.out.println(new Stact2().square(3) );
+//        System.loadLibrary("StaticBlock.Stact2");
+//        System.out.println(new StaticBlock.Stact2().square(3) );
 
 
     }

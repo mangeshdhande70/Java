@@ -1,4 +1,4 @@
-package Generics;
+package Base;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -51,12 +51,6 @@ public class FirstLaunch {
 
         System.out.println("\n\nPrimitive");
 //        ArrayList<int> arrayList2 = new ArrayList<int>(); java: unexpected type required: reference , found: int
-
-
-
-
-
-
 
 
     }

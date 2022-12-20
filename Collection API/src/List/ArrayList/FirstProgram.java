@@ -99,6 +99,29 @@ public class FirstProgram {
         System.out.println(arrayList2.indexOf(100));
 
 
+
+        System.out.println("\n\n***********************************************************");
+
+        // with Initial capacity ----> You can give any only Integer num
+        ArrayList arrayList1 = new ArrayList(20);
+        arrayList1.add(45);
+        arrayList1.add("Mangesh");
+        arrayList1.add('c');
+//        arrayList1.remove(1);
+//        arrayList1.remove(45);
+
+        arrayList1.remove("45");
+        arrayList1.add(null);  // possible
+
+
+
+        ArrayList arrayList3 = new ArrayList(arrayList1);
+
+        System.out.println(arrayList3);
+
+
+
+
     }
 
 

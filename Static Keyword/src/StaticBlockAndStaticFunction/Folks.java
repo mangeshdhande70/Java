@@ -1,3 +1,5 @@
+package StaticBlockAndStaticFunction;
+
 public class Folks {
 
     String name;  // instance variable

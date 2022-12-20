@@ -1,3 +1,5 @@
+package StaticVariable;
+
 import java.util.Scanner;
 
 class Farmer{

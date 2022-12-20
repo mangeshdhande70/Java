@@ -1,0 +1,33 @@
+
+
+   Map
+ ---------
+
+ Map is Not Child Interface of Collection.
+ If we want to Represent a Group of Objects as Key- Value Pairs then we should go for Map.
+ Both Keys and Values are Objects Only.
+ Duplicate Keys are Not allowed. But Values can be Duplicated.
+ Each Key- Value Pair is Called an Entry.
+
+
+
+                Map (I)
+                (1.2 V)
+     -----------------------------------
+
+             1) HashMap (C) (1.2 V)
+
+             2) IdentityHashMap (C) (1.4 V)
+
+             3) WeakHashMap (C) (1.2 V)
+
+             4) SortedMap (I) (1.2 V) ----> NavigableMap (I)(1.6 V)-----> TreeMap (C)(1.6 V)
+
+             5) Dictionary (AC)-----> Hashtable(C) -----> Properties(C)  --->all 1.0 --- and legacy class
+
+
+
+Entry (I):
+ Each Key- Value Pair is Called One Entry.
+ Without existing Map Object there is No Chance of existing Entry Object.
+ Hence Interface Entry is Define Inside Map Interface

@@ -32,6 +32,7 @@ In java, a static method is a method that is part of class rather than an instan
 •	Only static data may be accessed by a static method. It is unable to access data that is not static (instance variables).
 •	In both static and non-static methods, static methods can be accessed directly.
 •   Without creating an object of class we can access static method via className
+*   vstatic method will be inherited but can't be overridden.
 
       ex.   class Student {
               int Roll_No;

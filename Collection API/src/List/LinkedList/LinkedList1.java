@@ -32,6 +32,7 @@
 
 package List.LinkedList;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 
 public class LinkedList1 {
@@ -77,6 +78,22 @@ public class LinkedList1 {
         linkedList1.poll();
         System.out.println("After Poll\n"+linkedList1); // the element is fetched and remove from List
 
+
+
+
+        System.out.println("*******************************************************************");
+
+//        LinkedList list = new LinkedList(20);  ---> Not Possible there is no such constructor
+
+
+        ArrayList arrayList = new ArrayList();
+        arrayList.add(45);
+        arrayList.add(65);
+        arrayList.add("Mangesh");
+
+        LinkedList list=new LinkedList(arrayList);
+
+        System.out.println(list);
 
 
 

@@ -1,7 +1,32 @@
+/**
+ 
+ How to create Object of Inner class
+ __________________________________________________________________
+
+ 1) For Non-Static -
+
+         OuterClass objectOfOuter = new OuterClass();
+
+         OuterClass.InnerClass objectOFInnerClass = objectOfOuter.new InnerClass();
+
+
+
+
+ 2) For Static -
+
+            OuterClass.InnerClass objectOFInnerClass = new OuterClass.InnerClass();
+
+
+
+
+
+ */
+
+
+
 package InnerClass;
 
-
-class A{
+class OuterClass1 {
 
     int a = 9;
     private int var = 80;
@@ -11,7 +36,7 @@ class A{
         System.out.println("Inside a Outer class private input method");
     }
 
-    class B{
+    class InnerClassNonStatic{
 
         static int c = 234;
 
@@ -30,7 +55,7 @@ class A{
 
     }
 
-    static class C{  // inner class can be a static
+    static class InnerClassStatic{  // inner class can be a static
 
 
        static class V{
@@ -84,21 +109,20 @@ public class Introduction {
 
     public static void main(String[] args) {
 
-        A obj = new A();
-          obj.fun();
+        OuterClass1 objectOfOuter = new OuterClass1();
+        objectOfOuter.fun();
 //        obj.input();  private method can't access directly
 
-//        B obj1 = new B(); Not work for Inner Class
+//        InnerClassNonStatic obj1 = new InnerClassNonStatic(); Not work for Inner Class
 
-          A.B obj1;
-          obj1 = obj.new B(); // Non-static
-          obj1.display();   // only this class Method can access via Object , not access its Outer class
+          OuterClass1.InnerClassNonStatic objectOfInner = objectOfOuter.new InnerClassNonStatic(); // Non-static
+        objectOfInner.display();   // only this class Method can access via Object , not access its Outer class
 
-          A.B objB = obj.new B();
+          OuterClass1.InnerClassNonStatic objB = objectOfOuter.new InnerClassNonStatic();
 
-          A.C obj2 = new A.C(); // for static
+          OuterClass1.InnerClassStatic obj2 = new OuterClass1.InnerClassStatic(); // for static
 
-          A.C.V objV = new A.C.V();
+          OuterClass1.InnerClassStatic.V objV = new OuterClass1.InnerClassStatic.V();
 
           objV.funV();
 
