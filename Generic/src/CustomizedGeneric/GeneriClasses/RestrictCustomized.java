@@ -1,4 +1,4 @@
-package CustomizedGeneric;
+package CustomizedGeneric.GeneriClasses;
 
 // Number is a Parent class of Integer, Float, Long, Short, Byte, Double..etc.
 
