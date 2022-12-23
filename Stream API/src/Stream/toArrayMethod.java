@@ -26,7 +26,7 @@ public class toArrayMethod {
         System.out.println("\n\n******* to Specific Type *******");
 
         // to Specific type
-
+        // Constructor reference ----> Integer[]::new
        Integer[] objArr1 =  arrayList.stream().toArray(Integer[] ::new);
 
         for (Integer arr :

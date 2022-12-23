@@ -1,4 +1,4 @@
-package Method_Reference_and_Consturctor_reference;
+package MethodReference;
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 

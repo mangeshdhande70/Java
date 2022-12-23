@@ -1,4 +1,22 @@
-package Consumer;
+/**
+
+
+ * it is Functional Interface present in java.util.function package
+
+
+      public interface java.util.function.Consumer<T> {
+
+            public abstract void accept(T);
+            public default java.util.function.Consumer<T> andThen(java.util.function.Consumer<? super T>);
+
+      }
+
+
+ */
+
+
+
+package FunctionalInterface.Consumer;
 
 
 import java.util.ArrayList;

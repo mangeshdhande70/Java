@@ -1,13 +1,30 @@
-package Method_Reference_and_Consturctor_reference;
+/**
+
+ Consider a lambda expression which is as follows:
+
+        str -> System.out.println(str)
+        By method reference, it will change to this:
 
 
+         System.out::println
+         In method reference, the :: operator divides the method name from the class or object name.
+
+
+
+ */
+
+
+
+
+
+package MethodReference;
 
 interface Interface{
 
-    public void interFaceMethod(int i);
+     void interFaceMethod(int i);
 }
 
-public class LaunchThird {
+public class ALaunchThird {
 
 
     // logic is written by other developers and this method is binded with interFaceMethod
@@ -30,7 +47,7 @@ public class LaunchThird {
 
         // Binding of logicCoded LaunchThird class method with Interface method ( need argument data should be match )
         // it only works for Functional Interface.
-        Interface referenceOfInterface = new LaunchThird()::logicCoded;
+        Interface referenceOfInterface = new ALaunchThird()::logicCoded;
 
         referenceOfInterface.interFaceMethod(50);
 
