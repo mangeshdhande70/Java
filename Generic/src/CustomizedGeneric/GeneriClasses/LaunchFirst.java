@@ -85,7 +85,7 @@ public class LaunchFirst {
     public static void main(String[] args) {
 
 
-        Student<Integer> student1 = new Student<Integer>(23);
+        Student<Integer> student1 = new Student<Integer>(10);
         student1.show();
         System.out.println(student1.getObject());
 

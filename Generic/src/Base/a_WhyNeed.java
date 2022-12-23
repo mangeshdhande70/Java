@@ -43,6 +43,24 @@ package Base; /**
 
 
 
+
+
+
+
+ Conclusions :
+
+ Generics concept is applicable only at compile time, at runtime there is no such type of concept.
+ At the time of compilation, as the last step generics concept is removed,hence for jvm generics syntax won't be available.
+ Hence, the following declarations are equal.
+
+ ArrayList l=new ArrayList<String>();
+ ArrayList l=new ArrayList<Integer>();
+ ArrayList l =new Arraylist<Double>();
+
+ All are equal at runtime,because compiler will remove these generic's syntax
+ ArrayList l=new ArrayList();
+
+
  */
 
 

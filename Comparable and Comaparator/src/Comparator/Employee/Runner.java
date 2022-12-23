@@ -69,6 +69,12 @@ public class Runner {
         Employee employee8 = new Employee("ketan Dhande", 120721, "FSTAR");
 
 
+        //Duplicates EMPID
+        Employee employee11 = new Employee("Abhishek Bachhan", 120721, "FSTAR");
+        Employee employee12 = new Employee("Suchit Durge", 129451, "SAP");
+        Employee employee13 = new Employee("Ankush Wairagade", 120454, "IOT");
+
+
 
         TreeSet<Employee> treeSet = new TreeSet<>();
 
@@ -83,6 +89,11 @@ public class Runner {
         treeSet.add(employee8);
         treeSet.add(employee9);
         treeSet.add(employee10);
+
+        //Duplicate
+        treeSet.add(employee11);
+        treeSet.add(employee12);
+        treeSet.add(employee13);
 
         System.out.println(treeSet);
 
@@ -113,6 +124,12 @@ public class Runner {
             treeSet1.add(employee10);
 
 
+            // Duplicates
+            treeSet1.add(employee11);
+            treeSet1.add(employee12);
+            treeSet1.add(employee13);
+
+
 //            System.out.println(treeSet1);
 
 
@@ -131,10 +148,9 @@ class   MyComparator implements Comparator {
 
        Employee e1 = (Employee) obj1;
        Employee e2 = (Employee) obj2;
-
         String s1 = e1.getUnit();
         String s2 = e2.getUnit();
-        if (s1.equalsIgnoreCase(s2))
+        if (s1.equalsIgnoreCase(s2) && !e1.getEmpId().equals(e2.getEmpId()))
         {
             return 1;
         }
