@@ -44,7 +44,10 @@ public class LaunchSecond {
 
         System.out.println("\n\n\n******* Using Stream API *********");
 
-        List<String> list = arrayList.stream().map(name -> name.toUpperCase()).collect(Collectors.toList());
+        List<String> list = arrayList.stream()
+                                             .map(name -> name.toUpperCase())
+                                             .collect(Collectors.toList());
+
 
         list.forEach(System.out :: println);
 
