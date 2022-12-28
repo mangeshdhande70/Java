@@ -2,7 +2,7 @@ package bubble_sort;
 
 public class bubble_sort {
     public static void main(String[] args) {
-        int a[] = {5,4,2,3,1,0 , 9,12,87,990};
+        int a[] = {5,2,3,1,4};
         Bubble_sort(a, a.length);
 
         for (int arr : a)

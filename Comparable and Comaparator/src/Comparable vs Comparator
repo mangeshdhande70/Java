@@ -1,0 +1,75 @@
+
+
+Note:
+ if we are use TreeSet(), then the condition is
+	a. Object should be homogenous.
+	b. Object should be comparable(class should implement Comparable(I)).
+
+if we are use TreeSet(Comparator c) then what is the condition?
+	a. Object need not be homogenous.
+	b. Object need not implement Comparable.
+
+
+
+** When to go for Comparable interface and When to go Comparator interface? **
+==================================================================================
+Ans.
+    * Predefined Comparable classes like String,Wrapper class ====> Default natural sorting is already
+      available if we are not happy with natural sorting order, we want customization then we need to go
+      for "Comparator(I)".
+
+    * For  Predefined Non-Comparable class like StringBuffer => Comparator(I) is used for both
+                                            natural sorting order and customized sorting order.
+
+	* For user-defined class like Employee,Student =====> Developer if he comes up with own logic of sorting,
+	                                then he should implement Comparable(I) and give it as a ready made logic.
+
+Nitin.M
+======
+class Employee implements Comparable
+{
+	int id;
+	String name;
+	int age;
+
+	public int compareTo(Object obj){
+		//sorting is done based on "id"
+		;;;;;
+	}
+}
+If the developer who is using Employee class, if he is not interested with sorting based on "id" given by the api, then he can
+use "Comparator".
+
+
+
+When we go for Comparable and When we go for Comparator:
+=====================================================================================================
+Comparable Vs Comparator:
+
+=> For Predefined Comparable Classes (Like String) Default Natural Sorting Order is Already Available.
+   If we are Not satisfied with that we can Define Our Own Sorting by Comparator Object.
+
+=> For Predefine Non- Comparable Classes (Like StringBuffer) Default Natural Sorting Order is Not Already
+   Available.If we want to Define Our Own Sorting we can Use Comparator Object.
+
+=> For Our Own Classes (Like Employee) the Person who is writing Employee Class he is Responsible to Define
+   Default Natural Sorting  Order by implementing Comparable Interface.
+
+=> The Person who is using Our Own Class if he is Not satisfied with Default Natural Sorting Order he can
+   Define his Own Sorting by using Comparator Object.
+   If he is satisfied with Default Natural Sorting Order then he can Use Directly Our Class
+
+
+   Comparison of Comparable and Comparator:
+
+   Comparable(I)
+   Present in java.lang Package
+   It is Meant for Default Natural Sorting Order.
+   Defines Only One Method compareTo()
+   All Wrapper Classes and String Class implements Comparable Interface.
+
+   Comparator(I)
+   Present in java.util Package
+   It is Meant for Customized Sorting Order.
+   Defines 2 Methods compare() and equals().
+   The Only implemented Classes of Comparator are Collator and RuleBaseCollator.

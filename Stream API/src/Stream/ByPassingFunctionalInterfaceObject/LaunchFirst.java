@@ -61,22 +61,13 @@ public class LaunchFirst {
         };
 
 
-        System.out.println("********** BY Passing Predicate and Function & Consumer ********");
+        System.out.println("********** BY Passing Predicate and Function & Consumer Type Object ********");
 
 
         arrayList.stream()
                 .filter(predicate)
                 .map(function)
                 .forEach(consumer);
-
-
-
-
-
-
-
-
-
 
 
 

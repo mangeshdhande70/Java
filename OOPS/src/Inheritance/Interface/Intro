@@ -1,0 +1,81 @@
+
+
+
+                                           Interface
+==============================================================================================================
+
+Define:-
+        *  Any Service requirement specification is called Interface.
+
+        *  From client pov an interface defines the set of services that are offering.
+
+        *  Inside a interface every method is by default public and abstract so, interface
+           is considered as a 100% pure abstraction.
+
+
+
+Methods inside Interfaces
+===========================================================================================
+
+        *  From Java 8 , we can declare static and default methods inside interfaces.
+
+        * why abstract --> only implementation classes is responsible for providing the Implementation
+
+        * why public   --> to make method methods available for every implementation classes.
+
+
+Variables inside Interfaces
+==========================================================================================================
+
+        * Inside a interface we can declare variables and by default these variable are
+          public static final.
+
+        * why static --> to access variables without using implementation name.
+
+        * why final  --> Implementation class can access the value without any modification
+                         and bcz variables are final compulsory it should be initialized at
+                         the time of declaration otherwise when it would result in compile
+                         time error.
+
+
+
+Note :
+       * whenever we implementing interface methods in a class that implementing (override)\
+         methods always should be public.
+
+       * you can declare interface inside interface.
+
+            interface Outer
+            {
+               interface Inner{
+
+               }
+            }
+
+
+
+
+que: can a java class implements two Interfaces simultaneously.
+ -->  yes, it is possible except if two interface contain method with same name and same signature
+       but different return types.
+
+
+
+que: what is Marker interface?
+ --> If interface does not contain any methods and by implementing that interface if our object will get
+     some ability such type of interface is called as "Marker Interface/Tag Interface/ability interface".
+
+     eg#
+        1. Serializable.
+        2. Cloneable.
+        3. SingleThreadModel.
+
+
+     * que:: Without creating any methods in Marker interface, how object will get ability?
+       ----> JVM is responsible to provide required ability.
+
+     * que::  why JVM provide the required ability to Marker Interface?
+         -->  to reduce the complexity of the programming.
+
+
+

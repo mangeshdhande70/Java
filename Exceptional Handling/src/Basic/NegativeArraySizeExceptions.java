@@ -27,17 +27,24 @@ public class NegativeArraySizeExceptions extends Throwable {
 
             System.out.println("Element " + a + " inserted at Position " + arr[position]);
         }
-        catch (ArrayIndexOutOfBoundsException ai)
+        catch (ArrayIndexOutOfBoundsException  | NullPointerException ai)
         {
             System.out.println("please give correct size for keeping element "+ai);
         }
+//        catch (ArrayIndexOutOfBoundsException a){  --> Not allowed same class of Exception
+//
+//        }
         catch (Exception e)
         {
             System.out.println("you can't give array size as negative "+e);
         }
+//        System.out.println("hello");  ---> if u write this u get CE at finally line(42)
         finally {
             System.out.println("Connecting---> finally block always executed");
         }
+//        finally{
+//            System.out.println("hello");
+//        }
 
         System.out.println("Connection Disconnected");
 

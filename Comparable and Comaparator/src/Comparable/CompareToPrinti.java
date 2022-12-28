@@ -1,4 +1,4 @@
-package Comparable.Base;
+package Comparable;
 
 public class CompareToPrinti {
 

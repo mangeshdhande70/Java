@@ -8,7 +8,7 @@ import java.util.Scanner;
  *  We can throw either checked or unchecked exception.
  *  The throw keyword is mainly used to throw custom exceptions.
     But this exception i.e, Instance must be of type Throwable or a subclass of Throwable.
-    For example Exception is a sub-class of Throwable
+    For example Exception is a subclass of Throwable
 
 
   */

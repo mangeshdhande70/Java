@@ -1,6 +1,5 @@
-package Comparable.Base;
+package Comparable;
 
-import javax.imageio.ImageTranscoder;
 import java.util.Iterator;
 import java.util.TreeSet;
 

@@ -35,12 +35,6 @@ public class LaunchSorted {
         System.out.println("After Sorting using customized Sorting :: "+list2);
 
 
-
-
-
-
-
-
     }
 
 
