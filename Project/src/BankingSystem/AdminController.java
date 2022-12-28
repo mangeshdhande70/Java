@@ -40,13 +40,11 @@ public class AdminController {
                     break;
                 case 6:
                     System.out.println("Thanks for Using our services");
-                    break;
+                    System.exit(0);
                 default:
                     System.out.println("Invalid choice");
                     break;
             }
-            if (ch == 6)
-                break;
         }
 
     }
