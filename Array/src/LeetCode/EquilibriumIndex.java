@@ -14,11 +14,14 @@ public class EquilibriumIndex {
 //
 //        System.out.println("Enter arr ");
 
-        String str = "3,-4,2,-1,4,-3, 2, 1";
+        String str = "3,-4, 2, -1,-3, 2, 1";
 
         int index = equilibriumIndex(str);
         System.out.println("EI :- "+index);
 
+
+        int a = method2(str);
+        System.out.println("Using method2 "+a);
     }
 
 
@@ -53,5 +56,45 @@ public class EquilibriumIndex {
         }
         return -1;
 
+    }
+
+
+    public static int method2(String str)
+    {
+        String[] str1 = str.split(",");
+        int sum=0;
+        int n=str1.length;
+
+        for (int i = 0; i < n; i++) {
+            sum+=Integer.parseInt(str1[i].trim());
+        }
+
+        int firstEle = sum - Integer.parseInt(str1[0].trim());
+        int lastEle = sum - Integer.parseInt(str1[n-1].trim());
+
+
+        if (sum-firstEle==0)
+            return 0;
+        else if (sum-lastEle==0)
+            return n-1;
+        else {
+            for (int i = 0; i < n; i++) {
+
+                int leftSum  = 0;
+                int rightSum = 0;
+
+                for (int j = i+1; j < n ; j++)
+                    leftSum+=Integer.parseInt(str1[j].trim());
+
+                for (int j = i-1; j >=0 ; j--)
+                    rightSum+=Integer.parseInt(str1[j].trim());
+
+                if (leftSum==rightSum)
+                    return i;
+
+            }
+        }
+
+     return -1;
     }
 }

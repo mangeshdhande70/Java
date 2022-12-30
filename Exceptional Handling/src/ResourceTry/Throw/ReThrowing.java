@@ -1,7 +1,5 @@
-package Throw;
+package ResourceTry.Throw;
 
-
-import RunTimeExcepttion.Arr;
 
 class Demo{
 

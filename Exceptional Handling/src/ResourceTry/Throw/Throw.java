@@ -1,9 +1,10 @@
-package Throw;
+package ResourceTry.Throw;
 import java.util.Scanner;
 
 /**
 
  Define: - The throw keyword in Java is used to explicitly throw an exception from a method or any block of code.
+          ( handle the Exception and throw it back the exception object to the caller )
 
  *  We can throw either checked or unchecked exception.
 
