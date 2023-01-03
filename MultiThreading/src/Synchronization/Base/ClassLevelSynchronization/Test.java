@@ -1,4 +1,4 @@
-package Synchronization.ClassLevelSynchronization;
+package Synchronization.Base.ClassLevelSynchronization;
 
 /**
 
@@ -16,14 +16,15 @@ package Synchronization.ClassLevelSynchronization;
 
  */
 
+
 class Parent{
 
 
-    synchronized static void m1(String name)
+    synchronized static  void m1(String name)
     {
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Thread started Running");
+            System.out.println("Thread started Running for Object name "+name);
             try{
                 Thread.sleep(2000);
             }
@@ -57,8 +58,10 @@ public class Test {
     public static void main(String[] args) {
 
         MyThread myThread = new MyThread("akash");
-        myThread.start();
 
+        MyThread myThread1 = new MyThread("Ketan");
+        myThread.start();
+        myThread1.start();
 
     }
 

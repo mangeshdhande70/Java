@@ -1,4 +1,4 @@
-package Synchronization.ObjectLevelSynchronization;
+package Synchronization.Base.ObjectLevelSynchronization;
 
 /**
 

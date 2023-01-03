@@ -1,7 +1,8 @@
-package Synchronization.ObjectLevelSynchronization;
+package Synchronization.Base.ObjectLevelSynchronization;
 
 
 /**
+
 
  * Object level lock is achieved to restrict same object to operate through different thread,
    whereas class level lock is achieved to restrict any object to operate.
@@ -56,6 +57,16 @@ public class DiffObject {
         ParentOfObject parent2 = new ParentOfObject(object , "Akash2");
 
         parent.start();
+
+        /*
+
+        Note:
+             parent.start();  --> IllegalThreadStateException.
+
+             U can't call the start method with same Object ref in Object Level Synchronization but
+             u can call the start method using another object ref as shown below ex.
+
+         */
         parent2.start();
 
     }

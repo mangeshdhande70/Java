@@ -53,6 +53,7 @@ package Stream.Base;
 
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Stream;
 
@@ -71,8 +72,6 @@ public class LaunchFirst {
                 .forEach(System.out::println);
 
 
-
-
         System.out.println("\n\nFilter the data and perform addition ");
 
         int sum = list.stream()
@@ -81,6 +80,9 @@ public class LaunchFirst {
                 .reduce(0,(c,e)->(c+e));
 
         System.out.println(sum);
+
+
+
 
 
 
@@ -94,6 +96,14 @@ public class LaunchFirst {
         // stream has already been operated upon or closed ( bcz Stream is used only once)
         // sortingStream.forEach(System.out::println);  -->.IllegalStateException
 
+        System.out.println("********************8");
+
+
+        List<Integer> list1 = Collections.singletonList(list.stream().filter(n -> (n & 1) != 0)
+                                                                 .map(odd -> odd)
+                .reduce(0, (c, e) -> c * e));
+
+        System.out.println(list1);
 
     }
 

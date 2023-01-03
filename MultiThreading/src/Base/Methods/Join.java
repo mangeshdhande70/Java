@@ -1,4 +1,4 @@
-package Methods;
+package Base.Methods;
 
 /**
 
@@ -8,6 +8,7 @@ package Methods;
 
  * t1 will be entered into waiting state until t2 completes, once t2 completes then t1 can continue
     with its execution.
+
 
  eg#1.
  venue fixing =====> t1.start()

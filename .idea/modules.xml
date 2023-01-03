@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/Final Keyword/Final Keyword.iml" filepath="$PROJECT_DIR$/Final Keyword/Final Keyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Hashing/Hashing.iml" filepath="$PROJECT_DIR$/Hashing/Hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IO and File Handling/IO and File Handling.iml" filepath="$PROJECT_DIR$/IO and File Handling/IO and File Handling.iml" />
       <module fileurl="file://$PROJECT_DIR$/Imp Concept/Imp Concept.iml" filepath="$PROJECT_DIR$/Imp Concept/Imp Concept.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java Basics/Java Basics.iml" filepath="$PROJECT_DIR$/Java Basics/Java Basics.iml" />
@@ -27,7 +28,6 @@
       <module fileurl="file://$PROJECT_DIR$/QP/QP.iml" filepath="$PROJECT_DIR$/QP/QP.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recurssion/Recurssion.iml" filepath="$PROJECT_DIR$/Recurssion/Recurssion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Searching Alogorithm/Searching Alogorithm.iml" filepath="$PROJECT_DIR$/Searching Alogorithm/Searching Alogorithm.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Set/Set.iml" filepath="$PROJECT_DIR$/Set/Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sorting Algorithm/Sorting Algorithm.iml" filepath="$PROJECT_DIR$/Sorting Algorithm/Sorting Algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/Static Keyword/Static Keyword.iml" filepath="$PROJECT_DIR$/Static Keyword/Static Keyword.iml" />
       <module fileurl="file://$PROJECT_DIR$/Stream API/Stream API.iml" filepath="$PROJECT_DIR$/Stream API/Stream API.iml" />
