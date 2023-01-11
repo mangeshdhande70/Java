@@ -48,6 +48,13 @@ public class LinkedList1 {
         linkedList.add(45.5);
         linkedList.addLast("ketan");
         linkedList.add(45.5);
+        linkedList.addLast(76);
+
+        System.out.println(linkedList);
+
+//        linkedList
+
+
 
         System.out.println(linkedList);
 

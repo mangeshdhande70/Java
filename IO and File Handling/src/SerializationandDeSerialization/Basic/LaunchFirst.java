@@ -8,8 +8,15 @@ import java.io.*;
  * Serialization
  ==============================================================================================
 
+
+ => In Java, serialization is the process of converting an object's state (including its variables) to
+    a byte stream, which can then be stored or transmitted and reconstructed later on to create a new
+    object with the same state. This can be useful for transferring data between systems, storing data,
+    or for saving and restoring an object's state.
+
+
    => The process of saving (or) writing state of an object to a file is called serialization but strictly
-      speaking it is the process of converting an object from java supported  form to either network
+      speaking it is the process of converting an object from java supported form to either network
       supported form (or) file supported form.
 
    =>  By using FileOutputStream and ObjectOutputStream classes we can achieve serialization process.

@@ -7,7 +7,10 @@ class Student{
 
 
     /**
-     * transient variable not participate in Serialization.
+     * transient variable participate in Serialization but value is not participate always return in default value
+       depend on the Datatype.
+          eg#
+               int = 0; float = 0.0; String = null;
      */
     transient int stuId = 123;
 
