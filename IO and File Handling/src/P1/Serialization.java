@@ -1,8 +1,9 @@
-package SerializationandDeSerialization.Customize;
+package P1;
+
 
 import java.io.*;
 
-class NetflixUser implements Serializable{
+class NetflixUser implements Serializable {
 
     String userName = "mangesh.dhande";
     transient String pass = "md7@101198";
@@ -40,9 +41,7 @@ class NetflixUser implements Serializable{
 
 }
 
-
-public class  LaunchFirst {
-
+public class Serialization {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
         NetflixUser user = new NetflixUser();
@@ -54,24 +53,5 @@ public class  LaunchFirst {
         ous.writeObject(user);
 
         System.out.println("Serialization Ended.......");
-
-        System.in.read();
-
-
-        System.out.println("De-Serialization started...");
-
-        FileInputStream fi = new FileInputStream(fileName);
-        ObjectInputStream ois = new ObjectInputStream(fi);
-        NetflixUser obj = (NetflixUser) ois.readObject();
-
-
-        System.out.println("username :: "+obj.userName);
-        System.out.println("Password :: "+obj.pass);
-        System.out.println("PIN :: "+obj.pin);
-
-        System.out.println("De-Serialization ended...........");
-
-
-
     }
 }

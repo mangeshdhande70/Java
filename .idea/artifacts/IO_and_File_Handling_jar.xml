@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IO and File Handling:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IO_and_File_Handling_jar</output-path>
+    <root id="archive" name="IO and File Handling.jar">
+      <element id="module-output" name="IO and File Handling" />
+    </root>
+  </artifact>
+</component>

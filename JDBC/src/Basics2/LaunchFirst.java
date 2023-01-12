@@ -1,10 +1,16 @@
-package Basics1;
+package Basics2;
 
-import java.sql.*;
+import java.sql.Statement;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class LaunchFirst {
 
+
     public static void main(String[] args) {
+
 
 
         Connection connection = null;
@@ -14,11 +20,11 @@ public class LaunchFirst {
         try{
 
             //Step1. Load and register the Driver
-            Class.forName("com.mysql.cj.jdbc.Driver");
-            System.out.println("Driver loaded successfully....");
+//            Class.forName("com.mysql.cj.jdbc.Driver");
+//            System.out.println("Driver loaded successfully....");
 
             //Step2. Establish the Connection with database
-            String url = "jdbc:mysql://localhost:3306/ineuron";
+            String url = "jdbc:mysql:///ineuron";
 
             //username and password would vary from user to user
             String user = "root";
@@ -33,16 +39,16 @@ public class LaunchFirst {
 
             //Step3. Create statement Object and send the query
 
-            String sqlQuery = "select id,name,lastName,mailId,mobNo,age,course from student";
+            String sqlQuery = "select id,name,lastName,mailId,mobNo,salary,age,course from student";
 
-            statement =  connection.createStatement();
+            statement = connection.createStatement();
             System.out.println("The implementation class Name is :: "+statement.getClass().getName());
 
-            resultSet = statement.executeQuery(sqlQuery);
+            resultSet =statement.executeQuery(sqlQuery);
 
 
             System.out.println("\n\n");
-            System.out.println("Id\t\t\t\tName\t\t\t\tLastName\t\t\t\tMailId\t\t\t\tMobNo" +
+            System.out.println("Id\t\t\t\tName\t\t\t\tLastName\t\t\t\tMailId\t\t\t\tMobNo\t\t\t\tSalary" +
                     "\t\t\t\tAge\t\t\t\tCourse");
 
             System.out.println("___________________________________________________________________________________________________________________");
@@ -54,20 +60,22 @@ public class LaunchFirst {
                 String lastName = resultSet.getString(3);
                 String mailId = resultSet.getString(4);
                 Integer mobNo = resultSet.getInt(5);
-                Integer age = resultSet.getInt(6);
-                Integer course = resultSet.getInt(7);
+                Integer salary = resultSet.getInt(6);
+                Integer age = resultSet.getInt(7);
+                Integer course = resultSet.getInt(8);
 
                 System.out.println(id+"\t\t\t\t"+name+"\t\t\t\t"+lastName+"\t\t\t\t"
-                        +mailId+"\t\t\t"+mobNo+"\t\t\t\t"+age+"\t\t\t\t"+course);
+                        +mailId+"\t\t\t"+mobNo+"\t\t\t\t"+salary+ "\t\t\t\t"+age+"\t\t\t\t"+course);
 
 
             }
 
-
-        } catch (SQLException | ClassNotFoundException e) {
+        }
+        catch (SQLException e) {
             throw new RuntimeException(e);
         }
 
     }
+
 
 }

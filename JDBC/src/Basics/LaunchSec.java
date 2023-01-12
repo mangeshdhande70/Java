@@ -1,4 +1,4 @@
-package Basics;
+package Basics1;
 
 import java.sql.*;
 
@@ -15,10 +15,10 @@ public class LaunchSec {
 
         try {
 
-            //Step1 :-
+            //Step1. Load and register the Driver
             Class.forName("com.mysql.cj.jdbc.Driver");
 
-            System.out.println("Drivers connected......");
+            System.out.println("Driver loaded successfully....");
 
 
             //Step2 : Established connection
