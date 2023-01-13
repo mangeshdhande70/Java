@@ -28,8 +28,8 @@ public class executeUpdateMe {
 
 
 
-            int r = statement.executeUpdate("INSERT INTO student(name,lastName,mailId,mobNo,salary,age,course)" +
-                    "Values ('Akash','kakd','ak@gmail.com',12300,12000,25,3)");
+            int r = statement.executeUpdate("INSERT INTO student(name,lastName,mailId,mobNo,age,course)" +
+                    "Values ('Akash','kakd','ak@gmail.com',12000,25,3)");
 
 
             System.out.println("No of Rows affected is :: "+r);

@@ -1,5 +1,7 @@
 package InsideClass;
 
+
+
 public class LaunchFirst {
 
     enum Month{
@@ -15,11 +17,9 @@ public class LaunchFirst {
 
         Month obj[] =Month.values();
 
-        for (Month arrOfMonth:obj) {
-
+        for (Month arrOfMonth:obj)
             System.out.println(arrOfMonth.ordinal() +" : "+arrOfMonth.name());
 
-        }
 
 
     }

@@ -2,9 +2,7 @@ package Synchronization.Notify_and_wait;
 
 
 class MyThread extends Thread {
-
     int total = 0;
-
     @Override
     public void run() {
         synchronized (this) {

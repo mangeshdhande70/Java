@@ -1,4 +1,4 @@
-package Basics1;
+package Basics;
 
 import java.sql.*;
 

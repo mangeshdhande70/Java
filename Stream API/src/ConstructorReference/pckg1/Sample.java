@@ -1,6 +1,6 @@
 package ConstructorReference.pckg1;
 
-public class Sample {
+public class Sample{
 
     String name;
     Integer id;
@@ -11,5 +11,12 @@ public class Sample {
         System.out.println("constructor calling........ ");
     }
 
+//    @Override
+//    public void display(String name , Integer id){
+//
+//        System.out.println("Name :: "+name);
+//        System.out.println("Id :: "+id);
+//
+//    }
 
 }

@@ -5,6 +5,14 @@ enum Course
 {
     JAVA,PYTHON,SPRING_BOOT; // how many constant that many times' constructor will called
 
+    // public static final  (PASS is Value and PASS is reference Variable.)
+
+
+    // public static final LaunchFirst.Course JAVA = new LaunchFirst.Course();
+    //public static final Course JAVA = new Course();
+    // JVM will internally create Course class & Empty Constructor.
+
+
     int courseId;
 
     Course()
