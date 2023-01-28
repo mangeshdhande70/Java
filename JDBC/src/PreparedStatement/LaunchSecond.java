@@ -123,6 +123,7 @@ public class LaunchSecond {
 
             System.out.println("Enter course");
             Integer course = scanner.nextInt();
+            System.in.read();
 
 
 //            preparedStatement.setInt(1,99);

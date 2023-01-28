@@ -41,16 +41,17 @@ public class LaunchFirst {
             String mailId = scanner.next();
 
             System.out.println("Enter Mobile No");
-            Integer mobNo = scanner.nextInt();
+            int mobNo = scanner.nextInt();
 
             System.out.println("Enter Age");
-            Integer age = scanner.nextInt();
+            int age = scanner.nextInt();
 
             System.out.println("Enter course");
-            Integer course = scanner.nextInt();
+            int course = scanner.nextInt();
 
 
 //            preparedStatement.setInt(1,99);
+            assert preparedStatement != null;
             preparedStatement.setString(1,name);
             preparedStatement.setString(2,lastName);
             preparedStatement.setString(3,mailId);
